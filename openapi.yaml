@@ -1,0 +1,25 @@
+openapi: 3.1.0
+info: { title: Radar Sebrae Action, version: "1.0.0" }
+servers: [{ url: https://radar-sebrae-action.onrender.com }]
+paths:
+  /api/radar:
+    post:
+      operationId: consultarRadar
+      summary: Consulta no Radar Sebrae
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [tipo, uf, municipio]
+              properties:
+                tipo: { type: string, enum: [opportunities, demographics, competition] }
+                uf: { type: string, example: DF }
+                municipio: { type: string, example: "Brasília" }
+                setor: { type: string }
+                termo: { type: string }
+                cnae: { type: string }
+                raio_km: { type: number }
+      responses:
+        "200": { description: OK }
