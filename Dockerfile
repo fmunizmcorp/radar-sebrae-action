@@ -1,6 +1,6 @@
 FROM node:20-bullseye
 
-# 1) Sistema e fontes para Chrome
+# Bibliotecas de SO necessárias para o Chromium do Playwright
 RUN apt-get update && apt-get install -y \
     fonts-liberation \
     libasound2 \
@@ -21,16 +21,18 @@ RUN apt-get update && apt-get install -y \
     libxkbcommon0 \
     libxrandr2 \
     xdg-utils \
-  && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
-RUN npm ci
+# Instala dependências de produção (sem exigir package-lock)
+COPY package.json ./
+RUN npm install --omit=dev
 
-# 2) Instala Playwright + browsers
-RUN npx playwright install --with-deps chromium
+# Instala o navegador Chromium do Playwright
+RUN npx playwright install chromium
 
+# Copia o restante do projeto
 COPY . .
 
 ENV NODE_ENV=production
