@@ -1,6 +1,7 @@
 openapi: 3.1.0
 info: { title: Radar Sebrae Action, version: "1.0.0" }
-servers: [{ url: https://radar-sebrae-action.onrender.com }]
+servers:
+  - url: https://radar-sebrae-action.onrender.com
 paths:
   /api/radar:
     post:
