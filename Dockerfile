@@ -1,6 +1,6 @@
 FROM node:20-bullseye
 
-# Bibliotecas de SO necessárias para o Chromium do Playwright
+# Bibliotecas do Chromium (Playwright)
 RUN apt-get update && apt-get install -y \
     fonts-liberation \
     libasound2 \
@@ -25,11 +25,11 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-# Instala dependências de produção (sem exigir package-lock)
+# Instala dependências sem exigir package-lock
 COPY package.json ./
 RUN npm install --omit=dev
 
-# Instala o navegador Chromium do Playwright
+# Instala Chromium do Playwright
 RUN npx playwright install chromium
 
 # Copia o restante do projeto
