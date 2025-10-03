@@ -1,12 +1,14 @@
 openapi: 3.1.0
-info: { title: Radar Sebrae Action, version: "1.0.0" }
+info:
+  title: Sebrae Toolkit Actions
+  version: "1.1.0"
 servers:
   - url: https://radar-sebrae-action.onrender.com
 paths:
   /api/radar:
     post:
       operationId: consultarRadar
-      summary: Consulta no Radar Sebrae
+      summary: Radar Sebrae – oportunidades, demografia e concorrência
       requestBody:
         required: true
         content:
@@ -24,3 +26,80 @@ paths:
                 raio_km: { type: number }
       responses:
         "200": { description: OK }
+
+  /api/planejadora:
+    post:
+      operationId: consultarPlanejadora
+      summary: Planejadora Sebrae – blocos e conteúdos por etapa/termo
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [uf]
+              properties:
+                uf: { type: string, example: DF }
+                municipio: { type: string, example: "Brasília" }
+                termo: { type: string, example: "finanças" }
+                etapa: { type: string, example: "plano" }
+      responses:
+        "200": { description: OK }
+
+  /api/pnbox:
+    post:
+      operationId: consultarPNBox
+      summary: PNBox (Plano de Negócio) – seções e conteúdos por termo/etapa
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                uf: { type: string, example: DF }
+                municipio: { type: string, example: "Brasília" }
+                segmento: { type: string, example: "Saúde" }
+                termo: { type: string, example: "fluxo de caixa" }
+                etapa: { type: string, example: "finanças" }
+      responses:
+        "200": { description: OK }
+
+  /api/persona/analyze:
+    post:
+      operationId: analisarPlanilhaPersona
+      summary: Analisa a planilha de Persona (xlsm) e retorna abas/preview
+      responses:
+        "200":
+          description: JSON com abas e preview das primeiras linhas
+
+  /api/finance/analyze:
+    post:
+      operationId: analisarPlanilhaFinanceira
+      summary: Analisa a Calculadora Financeira (xlsx) e retorna abas/preview
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                sheet: { type: string, example: "Fluxo" }
+                rangeA1: { type: string, example: "A1:F20" }
+      responses:
+        "200":
+          description: JSON com abas e recorte solicitado
+
+  /assets/gerador_de_personas_2022.xlsm:
+    get:
+      operationId: baixarPersonaTemplate
+      summary: Download do template de Persona (xlsm)
+      responses:
+        "200": { description: Arquivo }
+
+  /assets/Calculadora_Planejamento_Financeiro_VF1.xlsx:
+    get:
+      operationId: baixarFinanceTemplate
+      summary: Download da Calculadora Financeira (xlsx)
+      responses:
+        "200": { description: Arquivo }
