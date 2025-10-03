@@ -29,7 +29,7 @@ async function withBrowser(fn, { width = 1366, height = 900 } = {}) {
 }
 async function waitIdle(page){ await page.waitForLoadState("domcontentloaded"); await page.waitForLoadState("networkidle").catch(()=>{}); }
 
-// ---------------- Radar Sebrae (já existente) ----------------
+// ---------------- Radar Sebrae ----------------
 const RadarBody = z.object({
   tipo: z.enum(["opportunities", "demographics", "competition"]),
   uf: z.string().length(2),
@@ -117,7 +117,7 @@ app.post("/api/radar", async (req, res) => {
   }catch(e){ res.status(400).json({ error: String(e.message||e) }); }
 });
 
-// ---------------- NOVA: Planejadora ----------------
+// ---------------- Planejadora ----------------
 const PlanejadoraBody = z.object({ uf: z.string().length(2), municipio: z.string().min(2).optional(), termo: z.string().optional(), etapa: z.string().optional() });
 app.post("/api/planejadora", async (req,res)=>{
   const body = PlanejadoraBody.parse(req.body);
@@ -140,7 +140,7 @@ app.post("/api/planejadora", async (req,res)=>{
   }catch(e){ res.status(400).json({ error:String(e.message||e) }); }
 });
 
-// ---------------- NOVA: PNBox ----------------
+// ---------------- PNBox ----------------
 const PNBoxBody = z.object({ uf: z.string().length(2).optional(), municipio: z.string().min(2).optional(), segmento: z.string().optional(), termo: z.string().optional(), etapa: z.string().optional() });
 app.post("/api/pnbox", async (req,res)=>{
   const body = PNBoxBody.parse(req.body);
@@ -201,10 +201,10 @@ app.post("/api/finance/analyze", async (req,res)=>{
   }catch(e){ res.status(400).json({ error:String(e.message||e) }); }
 });
 
-// ---------------- NOVAS: Manuais de Crédito (PDF) ----------------
+// ---------------- Manuais de Crédito (PDFs) ----------------
 const PdfBody = z.object({
-  source: z.enum(["finep","manual"]).default("manual"),
-  search: z.string().optional(),   // termo a procurar no texto
+  source: z.enum(["finep","manual","finep_guia"]).default("manual"),
+  search: z.string().optional(),
   max_snippets: z.number().int().min(1).max(20).optional()
 });
 function extractUrls(text){
@@ -213,20 +213,28 @@ function extractUrls(text){
 }
 function snippets(text, q, k=5){
   const T = text.split(/\n+/).map(s=>s.trim()).filter(Boolean);
-  const hits=[]; const rx = new RegExp(q,"i");
+  const rx = new RegExp(q,"i"); const hits=[];
   for(let i=0;i<T.length;i++){ if(rx.test(T[i])) hits.push(T[i]); if(hits.length>=k) break; }
   return hits;
 }
 app.post("/api/credit/links", async (req,res)=>{
   const body = PdfBody.parse(req.body ?? {});
   try{
-    const file = body.source==="finep" ? "finep_condicoes_operacionais_2025.pdf" : "manual_credito_empresas_2025.pdf";
+    const file =
+      body.source==="finep" ? "finep_condicoes_operacionais_2025.pdf" :
+      body.source==="finep_guia" ? "finep_guia_rapido.pdf" :
+      "manual_credito_empresas_2025.pdf";
     const p = path.join(process.cwd(),"assets",file);
     if(!fs.existsSync(p)) return res.status(404).json({ error:`Arquivo não encontrado: ${file}` });
     const data = await pdfParse(fs.readFileSync(p));
     const urls = extractUrls(data.text);
     const out = { origem: body.source, pages: data.numpages, info: data.info||{}, links: urls, download:`/assets/${file}` };
     if(body.search){ out["snippets"] = snippets(data.text, body.search, body.max_snippets??8); }
+    // Heurística: se for guia, tente destacar passos de cadastro/login
+    if(body.source==="finep_guia" && !body.search){
+      const chaves = ["CADASTRE-SE","CPF","e-mail","código de segurança","criar senha","Login","cadastrar pessoa física","Solicitar Vínculo","representante legal","CNPJ","Enviar Solicitação"];
+      out["snippets"] = snippets(data.text, chaves.join("|"), 12);
+    }
     res.json(out);
   }catch(e){ res.status(400).json({ error:String(e.message||e) }); }
 });
