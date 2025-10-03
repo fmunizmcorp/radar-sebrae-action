@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Sebrae Toolkit Actions
-  version: "1.2.0"
+  version: "1.3.0"
 servers:
   - url: https://radar-sebrae-action.onrender.com
 paths:
@@ -86,7 +86,7 @@ paths:
   /api/credit/links:
     post:
       operationId: extrairLinksCreditos
-      summary: Extrai links e trechos dos PDFs de crédito (FINEP e Manual consolidado)
+      summary: Extrai links e trechos dos PDFs de crédito (FINEP Condições, Manual consolidado e Guia Rápido FINEP)
       requestBody:
         required: false
         content:
@@ -94,11 +94,11 @@ paths:
             schema:
               type: object
               properties:
-                source: { type: string, enum: [finep, manual], default: manual }
-                search: { type: string, example: "PRONAMPE" }
+                source: { type: string, enum: [finep, manual, finep_guia], default: manual }
+                search: { type: string, example: "Inovacred" }
                 max_snippets: { type: integer, example: 8 }
       responses:
-        "200": { description: JSON com links únicos, páginas, e snippets opcionais }
+        "200": { description: JSON com links únicos, páginas e snippets }
 
   /assets/gerador_de_personas_2022.xlsm:
     get:
@@ -122,4 +122,10 @@ paths:
     get:
       operationId: baixarManualCreditoPDF
       summary: Download do Manual de Linhas de Crédito 2025
+      responses: { "200": { description: Arquivo } }
+
+  /assets/finep_guia_rapido.pdf:
+    get:
+      operationId: baixarFinepGuiaPDF
+      summary: Download do Guia Rápido FINEP (cadastro/login e vínculos)
       responses: { "200": { description: Arquivo } }
