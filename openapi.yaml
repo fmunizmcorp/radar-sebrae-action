@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Sebrae Toolkit Actions
-  version: "1.1.0"
+  version: "1.2.0"
 servers:
   - url: https://radar-sebrae-action.onrender.com
 paths:
@@ -24,13 +24,12 @@ paths:
                 termo: { type: string }
                 cnae: { type: string }
                 raio_km: { type: number }
-      responses:
-        "200": { description: OK }
+      responses: { "200": { description: OK } }
 
   /api/planejadora:
     post:
       operationId: consultarPlanejadora
-      summary: Planejadora Sebrae – blocos e conteúdos por etapa/termo
+      summary: Planejadora Sebrae – blocos por etapa/termo
       requestBody:
         required: true
         content:
@@ -43,13 +42,12 @@ paths:
                 municipio: { type: string, example: "Brasília" }
                 termo: { type: string, example: "finanças" }
                 etapa: { type: string, example: "plano" }
-      responses:
-        "200": { description: OK }
+      responses: { "200": { description: OK } }
 
   /api/pnbox:
     post:
       operationId: consultarPNBox
-      summary: PNBox (Plano de Negócio) – seções e conteúdos por termo/etapa
+      summary: PNBox – seções por termo/etapa
       requestBody:
         required: true
         content:
@@ -62,16 +60,13 @@ paths:
                 segmento: { type: string, example: "Saúde" }
                 termo: { type: string, example: "fluxo de caixa" }
                 etapa: { type: string, example: "finanças" }
-      responses:
-        "200": { description: OK }
+      responses: { "200": { description: OK } }
 
   /api/persona/analyze:
     post:
       operationId: analisarPlanilhaPersona
       summary: Analisa a planilha de Persona (xlsm) e retorna abas/preview
-      responses:
-        "200":
-          description: JSON com abas e preview das primeiras linhas
+      responses: { "200": { description: OK } }
 
   /api/finance/analyze:
     post:
@@ -86,20 +81,45 @@ paths:
               properties:
                 sheet: { type: string, example: "Fluxo" }
                 rangeA1: { type: string, example: "A1:F20" }
+      responses: { "200": { description: OK } }
+
+  /api/credit/links:
+    post:
+      operationId: extrairLinksCreditos
+      summary: Extrai links e trechos dos PDFs de crédito (FINEP e Manual consolidado)
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                source: { type: string, enum: [finep, manual], default: manual }
+                search: { type: string, example: "PRONAMPE" }
+                max_snippets: { type: integer, example: 8 }
       responses:
-        "200":
-          description: JSON com abas e recorte solicitado
+        "200": { description: JSON com links únicos, páginas, e snippets opcionais }
 
   /assets/gerador_de_personas_2022.xlsm:
     get:
       operationId: baixarPersonaTemplate
       summary: Download do template de Persona (xlsm)
-      responses:
-        "200": { description: Arquivo }
+      responses: { "200": { description: Arquivo } }
 
   /assets/Calculadora_Planejamento_Financeiro_VF1.xlsx:
     get:
       operationId: baixarFinanceTemplate
       summary: Download da Calculadora Financeira (xlsx)
-      responses:
-        "200": { description: Arquivo }
+      responses: { "200": { description: Arquivo } }
+
+  /assets/finep_condicoes_operacionais_2025.pdf:
+    get:
+      operationId: baixarFinepPDF
+      summary: Download do PDF FINEP Condições Operacionais 2025
+      responses: { "200": { description: Arquivo } }
+
+  /assets/manual_credito_empresas_2025.pdf:
+    get:
+      operationId: baixarManualCreditoPDF
+      summary: Download do Manual de Linhas de Crédito 2025
+      responses: { "200": { description: Arquivo } }
