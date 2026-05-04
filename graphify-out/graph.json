@@ -83,9 +83,9 @@
       "source_file": "server.js",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_withbrowser",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_withbrowser"
     },
     {
       "relation": "contains",
@@ -93,9 +93,9 @@
       "source_file": "server.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_waitidle",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_waitidle"
     },
     {
       "relation": "contains",
@@ -103,9 +103,9 @@
       "source_file": "server.js",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_setlocal",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_setlocal"
     },
     {
       "relation": "contains",
@@ -113,9 +113,9 @@
       "source_file": "server.js",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_clicksearch",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_clicksearch"
     },
     {
       "relation": "contains",
@@ -123,9 +123,9 @@
       "source_file": "server.js",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_col",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_col"
     },
     {
       "relation": "contains",
@@ -133,9 +133,9 @@
       "source_file": "server.js",
       "source_location": "L210",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_extracturls",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_extracturls"
     },
     {
       "relation": "contains",
@@ -143,9 +143,9 @@
       "source_file": "server.js",
       "source_location": "L214",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_js",
-      "target": "radar_sebrae_action_server_snippets",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_snippets"
     },
     {
       "relation": "calls",
@@ -154,11 +154,11 @@
       "source_file": "server.js",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "radar_sebrae_action_server_clicksearch",
-      "target": "radar_sebrae_action_server_waitidle",
-      "confidence_score": 1.0
+      "target": "radar_sebrae_action_server_waitidle"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a3797527d9938fcc2b5beab25c58e124f03b1e5d"
+  "built_at_commit": "8bc97781b10eb6cced3c9449250f866ba5cb2f58"
 }
