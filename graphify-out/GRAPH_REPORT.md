@@ -1,7 +1,7 @@
 # Graph Report - radar-sebrae-action  (2026-05-04)
 
 ## Corpus Check
-- 1 files · ~3,066 words
+- 1 files · ~3,819 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3081a4d8`
+- Built from commit: `d2ae2ee5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
