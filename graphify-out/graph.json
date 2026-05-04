@@ -1,0 +1,164 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L1",
+      "id": "server_js",
+      "community": 0,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "withBrowser()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L23",
+      "id": "radar_sebrae_action_server_withbrowser",
+      "community": 0,
+      "norm_label": "withbrowser()"
+    },
+    {
+      "label": "waitIdle()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L30",
+      "id": "radar_sebrae_action_server_waitidle",
+      "community": 1,
+      "norm_label": "waitidle()"
+    },
+    {
+      "label": "setLocal()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L45",
+      "id": "radar_sebrae_action_server_setlocal",
+      "community": 0,
+      "norm_label": "setlocal()"
+    },
+    {
+      "label": "clickSearch()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L51",
+      "id": "radar_sebrae_action_server_clicksearch",
+      "community": 1,
+      "norm_label": "clicksearch()"
+    },
+    {
+      "label": "col()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L189",
+      "id": "radar_sebrae_action_server_col",
+      "community": 0,
+      "norm_label": "col()"
+    },
+    {
+      "label": "extractUrls()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L210",
+      "id": "radar_sebrae_action_server_extracturls",
+      "community": 0,
+      "norm_label": "extracturls()"
+    },
+    {
+      "label": "snippets()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L214",
+      "id": "radar_sebrae_action_server_snippets",
+      "community": 0,
+      "norm_label": "snippets()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_withbrowser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_waitidle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_setlocal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_clicksearch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_col",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_extracturls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "server_js",
+      "target": "radar_sebrae_action_server_snippets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_server_clicksearch",
+      "target": "radar_sebrae_action_server_waitidle",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a3797527d9938fcc2b5beab25c58e124f03b1e5d"
+}
