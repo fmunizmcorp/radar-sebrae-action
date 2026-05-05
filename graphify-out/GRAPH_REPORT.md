@@ -1,16 +1,16 @@
-# Graph Report - radar-sebrae-action  (2026-05-04)
+# Graph Report - radar-sebrae-action  (2026-05-05)
 
 ## Corpus Check
 - 1 files · ~4,121 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 8 nodes · 8 edges · 1 communities detected
+- 8 nodes · 8 edges · 2 communities (1 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f141af1e`
+- Built from commit: `71ab37e8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
