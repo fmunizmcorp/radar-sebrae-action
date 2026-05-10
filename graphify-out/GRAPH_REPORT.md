@@ -1,4 +1,4 @@
-# Graph Report - radar-sebrae-action  (2026-05-09)
+# Graph Report - radar-sebrae-action  (2026-05-10)
 
 ## Corpus Check
 - 5 files · ~4,121 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `046d96f1`
+- Built from commit: `0474dd83`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

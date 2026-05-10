@@ -36,7 +36,7 @@
       "source_file": "server.js",
       "source_location": "L30",
       "id": "radar_sebrae_action_server_waitidle",
-      "community": 9,
+      "community": 8,
       "norm_label": "waitidle()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "server.js",
       "source_location": "L51",
       "id": "radar_sebrae_action_server_clicksearch",
-      "community": 9,
+      "community": 8,
       "norm_label": "clicksearch()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "server.js",
       "source_location": "L191",
       "id": "radar_sebrae_action_server_slice",
-      "community": 8,
+      "community": 9,
       "norm_label": "slice"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "server.js",
       "source_location": "L210",
       "id": "radar_sebrae_action_server_extracturls",
-      "community": 8,
+      "community": 9,
       "norm_label": "extracturls()"
     },
     {
@@ -1746,5 +1746,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "046d96f176f4825ff204b4281a9f456d1280c1a8"
+  "built_at_commit": "0474dd83f011cd5106fb3ee600ffc5f34834ee44"
 }
