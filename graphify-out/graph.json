@@ -337,6 +337,141 @@
       "norm_label": "chaves"
     },
     {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 11,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "radar_sebrae_action_package_name",
+      "community": 11,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "radar_sebrae_action_package_version",
+      "community": 11,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "radar_sebrae_action_package_type",
+      "community": 11,
+      "norm_label": "type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "radar_sebrae_action_package_scripts",
+      "community": 11,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "radar_sebrae_action_package_scripts_start",
+      "community": 11,
+      "norm_label": "start"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "radar_sebrae_action_package_dependencies",
+      "community": 11,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "radar_sebrae_action_package_dependencies_express",
+      "community": 11,
+      "norm_label": "express"
+    },
+    {
+      "label": "express-rate-limit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "radar_sebrae_action_package_dependencies_express_rate_limit",
+      "community": 11,
+      "norm_label": "express-rate-limit"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "radar_sebrae_action_package_dependencies_helmet",
+      "community": 11,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "playwright",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "radar_sebrae_action_package_dependencies_playwright",
+      "community": 11,
+      "norm_label": "playwright"
+    },
+    {
+      "label": "p-retry",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "radar_sebrae_action_package_dependencies_p_retry",
+      "community": 11,
+      "norm_label": "p-retry"
+    },
+    {
+      "label": "xlsx",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "radar_sebrae_action_package_dependencies_xlsx",
+      "community": 11,
+      "norm_label": "xlsx"
+    },
+    {
+      "label": "zod",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "radar_sebrae_action_package_dependencies_zod",
+      "community": 11,
+      "norm_label": "zod"
+    },
+    {
+      "label": "pdf-parse",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "radar_sebrae_action_package_dependencies_pdf_parse",
+      "community": 11,
+      "norm_label": "pdf-parse"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -360,7 +495,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 2,
+      "community": 1,
       "norm_label": "claude.md"
     },
     {
@@ -1227,6 +1362,146 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "radar_sebrae_action_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "radar_sebrae_action_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "radar_sebrae_action_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "radar_sebrae_action_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "radar_sebrae_action_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_scripts",
+      "target": "radar_sebrae_action_package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_express_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_playwright",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_p_retry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_xlsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_zod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "radar_sebrae_action_package_dependencies",
+      "target": "radar_sebrae_action_package_dependencies_pdf_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -1746,5 +2021,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "99e750abbe4b776c4323c66c4247d0911098d138"
+  "built_at_commit": "55b7a9a62d98533bf380fa5d7019eaffb89576fb"
 }
