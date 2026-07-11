@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "package",
-      "community": 8,
+      "community": 44,
       "norm_label": "package.json"
     },
     {
@@ -20,7 +20,7 @@
       "source_location": "L2",
       "_origin": "ast",
       "id": "package_name",
-      "community": 8,
+      "community": 44,
       "norm_label": "name"
     },
     {
@@ -30,7 +30,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "package_version",
-      "community": 8,
+      "community": 44,
       "norm_label": "version"
     },
     {
@@ -40,7 +40,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "package_type",
-      "community": 8,
+      "community": 44,
       "norm_label": "type"
     },
     {
@@ -50,7 +50,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_scripts",
-      "community": 8,
+      "community": 44,
       "norm_label": "scripts"
     },
     {
@@ -60,7 +60,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "package_scripts_start",
-      "community": 8,
+      "community": 44,
       "norm_label": "start"
     },
     {
@@ -84,12 +84,32 @@
       "norm_label": "express"
     },
     {
+      "label": "express",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "express",
+      "community": 8,
+      "norm_label": "express"
+    },
+    {
       "label": "express-rate-limit",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
       "id": "package_dependencies_express_rate_limit",
+      "community": 8,
+      "norm_label": "express-rate-limit"
+    },
+    {
+      "label": "express-rate-limit",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "express_rate_limit",
       "community": 8,
       "norm_label": "express-rate-limit"
     },
@@ -104,12 +124,32 @@
       "norm_label": "helmet"
     },
     {
+      "label": "helmet",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "helmet",
+      "community": 8,
+      "norm_label": "helmet"
+    },
+    {
       "label": "playwright",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
       "_origin": "ast",
       "id": "package_dependencies_playwright",
+      "community": 8,
+      "norm_label": "playwright"
+    },
+    {
+      "label": "playwright",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "playwright",
       "community": 8,
       "norm_label": "playwright"
     },
@@ -124,12 +164,32 @@
       "norm_label": "p-retry"
     },
     {
+      "label": "p-retry",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "p_retry",
+      "community": 8,
+      "norm_label": "p-retry"
+    },
+    {
       "label": "xlsx",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
       "id": "package_dependencies_xlsx",
+      "community": 8,
+      "norm_label": "xlsx"
+    },
+    {
+      "label": "xlsx",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "xlsx",
       "community": 8,
       "norm_label": "xlsx"
     },
@@ -144,12 +204,32 @@
       "norm_label": "zod"
     },
     {
+      "label": "zod",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "zod",
+      "community": 8,
+      "norm_label": "zod"
+    },
+    {
       "label": "pdf-parse",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
       "id": "package_dependencies_pdf_parse",
+      "community": 8,
+      "norm_label": "pdf-parse"
+    },
+    {
+      "label": "pdf-parse",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "pdf_parse",
       "community": 8,
       "norm_label": "pdf-parse"
     },
@@ -1513,6 +1593,94 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_express",
+      "target": "express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_express_rate_limit",
+      "target": "express_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_helmet",
+      "target": "helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_playwright",
+      "target": "playwright",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_p_retry",
+      "target": "p_retry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_xlsx",
+      "target": "xlsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_zod",
+      "target": "zod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "source": "package_dependencies_pdf_parse",
+      "target": "pdf_parse",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server.js",
@@ -2365,5 +2533,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0861cf46a3e52cd4748b66ceb0b78da705a6d348"
+  "built_at_commit": "b38b53f3def444f0c1ad8b4a146ec63e907349a6"
 }
