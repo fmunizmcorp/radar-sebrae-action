@@ -543,94 +543,6 @@
       "norm_label": "decisoes que nao sao suas"
     },
     {
-      "label": "prompts.md",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_prompts",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "prompts.md"
-    },
-    {
-      "label": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "prompts e templates - fmunizmcorp/radar-sebrae-action"
-    },
-    {
-      "label": "Template 1: Comeco de sessao",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "claude_prompts_template_1_comeco_de_sessao",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 1: comeco de sessao"
-    },
-    {
-      "label": "Template 2: Implementacao de feature",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "claude_prompts_template_2_implementacao_de_feature",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 2: implementacao de feature"
-    },
-    {
-      "label": "Template 3: Bug fix",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "claude_prompts_template_3_bug_fix",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 3: bug fix"
-    },
-    {
-      "label": "Template 4: Auditoria/revisao",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "claude_prompts_template_4_auditoria_revisao",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 4: auditoria/revisao"
-    },
-    {
-      "label": "Template 5: Deploy e validacao",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L63",
-      "_origin": "ast",
-      "id": "claude_prompts_template_5_deploy_e_validacao",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 5: deploy e validacao"
-    },
-    {
-      "label": "Template 7: Atualizacao de skills",
-      "file_type": "document",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "id": "claude_prompts_template_7_atualizacao_de_skills",
-      "community": 3,
-      "community_name": "Prompts e Templates - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "template 7: atualizacao de skills"
-    },
-    {
       "label": "skills.md",
       "file_type": "document",
       "source_file": ".claude/skills.md",
@@ -684,457 +596,6 @@
       "community": 13,
       "community_name": "Skills aplicaveis (Node.js / TypeScript)",
       "norm_label": "padroes obrigatorios node/ts"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "claude",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "atencao claude - leia e obedeca este bloco antes de qualquer outra coisa"
-    },
-    {
-      "label": "REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO.",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra -1 - o usuario e leigo. nunca pergunte sobre persona, skill ou configuracao."
-    },
-    {
-      "label": "REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA.",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 0 - voce e o lider + orquestrador deste repo. ativo. agora."
-    },
-    {
-      "label": "REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA.",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 1 - skills basais - sempre on. nao pergunte. nao escolha."
-    },
-    {
-      "label": "REGRA 2 - SKILLS CONDICIONAIS PARA REPO DE DESENVOLVIMENTO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 2 - skills condicionais para repo de desenvolvimento"
-    },
-    {
-      "label": "REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 2.5 - geracao de arquivos (excel, pdf, docx, pptx) - skills xlsx/pdf/docx/pptx"
-    },
-    {
-      "label": "Padroes Brasil obrigatorios em cada arquivo gerado",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L81",
-      "_origin": "ast",
-      "id": "claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "padroes brasil obrigatorios em cada arquivo gerado"
-    },
-    {
-      "label": "Fluxo padrao quando o usuario pede arquivo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L88",
-      "_origin": "ast",
-      "id": "claude_fluxo_padrao_quando_o_usuario_pede_arquivo",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "fluxo padrao quando o usuario pede arquivo"
-    },
-    {
-      "label": "REGRA 3 - PROTOCOLO DE LEITURA OBRIGATORIO (toda mensagem nova)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 3 - protocolo de leitura obrigatorio (toda mensagem nova)"
-    },
-    {
-      "label": "REGRA 4 - PROTOCOLO DE FECHAMENTO OBRIGATORIO (toda sessao com mudancas)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 4 - protocolo de fechamento obrigatorio (toda sessao com mudancas)"
-    },
-    {
-      "label": "REGRA 5 - DECISAO DO USUARIO SOBRE CREDENCIAIS (ja documentada)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L120",
-      "_origin": "ast",
-      "id": "claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 5 - decisao do usuario sobre credenciais (ja documentada)"
-    },
-    {
-      "label": "REGRA 6 - PADROES BRASIL OBRIGATORIOS",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L124",
-      "_origin": "ast",
-      "id": "claude_regra_6_padroes_brasil_obrigatorios",
-      "community": 9,
-      "community_name": "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA",
-      "norm_label": "regra 6 - padroes brasil obrigatorios"
-    },
-    {
-      "label": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L158",
-      "_origin": "ast",
-      "id": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "claude.md - fmunizmcorp/radar-sebrae-action"
-    },
-    {
-      "label": "ZERO. PROTOCOLO DE ATIVACAO (executar SEMPRE no inicio da conversa)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L163",
-      "_origin": "ast",
-      "id": "claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "zero. protocolo de ativacao (executar sempre no inicio da conversa)"
-    },
-    {
-      "label": "ZERO.1 EXCELENCIA TOTAL (regras inegociaveis)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L178",
-      "_origin": "ast",
-      "id": "claude_zero_1_excelencia_total_regras_inegociaveis",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "zero.1 excelencia total (regras inegociaveis)"
-    },
-    {
-      "label": "1. IDENTIDADE DO PROJETO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L192",
-      "_origin": "ast",
-      "id": "claude_1_identidade_do_projeto",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "1. identidade do projeto"
-    },
-    {
-      "label": "2. SEU PAPEL - ORQUESTRADOR",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L200",
-      "_origin": "ast",
-      "id": "claude_2_seu_papel_orquestrador",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "2. seu papel - orquestrador"
-    },
-    {
-      "label": "3. SQUAD DE IAs (skills aplicaveis)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L218",
-      "_origin": "ast",
-      "id": "claude_3_squad_de_ias_skills_aplicaveis",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "3. squad de ias (skills aplicaveis)"
-    },
-    {
-      "label": "Skills BASAIS (sempre validas em qualquer tarefa)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L220",
-      "_origin": "ast",
-      "id": "claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "skills basais (sempre validas em qualquer tarefa)"
-    },
-    {
-      "label": "Skills ESPECIFICAS deste projeto",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L228",
-      "_origin": "ast",
-      "id": "claude_skills_especificas_deste_projeto",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "skills especificas deste projeto"
-    },
-    {
-      "label": "Quando usar cada skill",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L233",
-      "_origin": "ast",
-      "id": "claude_quando_usar_cada_skill",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "quando usar cada skill"
-    },
-    {
-      "label": "4. METODOLOGIA DE TRABALHO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L237",
-      "_origin": "ast",
-      "id": "claude_4_metodologia_de_trabalho",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "4. metodologia de trabalho"
-    },
-    {
-      "label": "Fluxo padrao para qualquer tarefa",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L239",
-      "_origin": "ast",
-      "id": "claude_fluxo_padrao_para_qualquer_tarefa",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "fluxo padrao para qualquer tarefa"
-    },
-    {
-      "label": "Padroes obrigatorios",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L275",
-      "_origin": "ast",
-      "id": "claude_padroes_obrigatorios",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "padroes obrigatorios"
-    },
-    {
-      "label": "5. CONHECIMENTO ESPECIFICO DO PROJETO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L285",
-      "_origin": "ast",
-      "id": "claude_5_conhecimento_especifico_do_projeto",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "5. conhecimento especifico do projeto"
-    },
-    {
-      "label": "Estruturas centrais (God Nodes pelo Graphify)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L289",
-      "_origin": "ast",
-      "id": "claude_estruturas_centrais_god_nodes_pelo_graphify",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "estruturas centrais (god nodes pelo graphify)"
-    },
-    {
-      "label": "6. STACK TECNOLOGICO (de `package.json`)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L294",
-      "_origin": "ast",
-      "id": "claude_6_stack_tecnologico_de_package_json",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "6. stack tecnologico (de `package.json`)"
-    },
-    {
-      "label": "7. ESTRUTURA DO REPO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L316",
-      "_origin": "ast",
-      "id": "claude_7_estrutura_do_repo",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "7. estrutura do repo"
-    },
-    {
-      "label": "Diretorios principais",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L318",
-      "_origin": "ast",
-      "id": "claude_diretorios_principais",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "diretorios principais"
-    },
-    {
-      "label": "Arquivos da raiz (amostra)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L327",
-      "_origin": "ast",
-      "id": "claude_arquivos_da_raiz_amostra",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "arquivos da raiz (amostra)"
-    },
-    {
-      "label": "9. APRENDIZADO E ATUALIZACAO CONTINUA",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L339",
-      "_origin": "ast",
-      "id": "claude_9_aprendizado_e_atualizacao_continua",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "9. aprendizado e atualizacao continua"
-    },
-    {
-      "label": "Regra de ouro: SEMPRE atualize o conhecimento do projeto",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L341",
-      "_origin": "ast",
-      "id": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "regra de ouro: sempre atualize o conhecimento do projeto"
-    },
-    {
-      "label": "Triggers para regenerar grafo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L367",
-      "_origin": "ast",
-      "id": "claude_triggers_para_regenerar_grafo",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "triggers para regenerar grafo"
-    },
-    {
-      "label": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L377",
-      "_origin": "ast",
-      "id": "claude_10_checklist_de_entrega_obrigatorio",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "10. checklist de entrega obrigatorio"
-    },
-    {
-      "label": "Codigo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L381",
-      "_origin": "ast",
-      "id": "claude_codigo",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "codigo"
-    },
-    {
-      "label": "Testes",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L389",
-      "_origin": "ast",
-      "id": "claude_testes",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "testes"
-    },
-    {
-      "label": "Documentacao",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L397",
-      "_origin": "ast",
-      "id": "claude_documentacao",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "documentacao"
-    },
-    {
-      "label": "Deploy",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L405",
-      "_origin": "ast",
-      "id": "claude_deploy",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "deploy"
-    },
-    {
-      "label": "Sinalizar conclusao",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L413",
-      "_origin": "ast",
-      "id": "claude_sinalizar_conclusao",
-      "community": 1,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "norm_label": "sinalizar conclusao"
-    },
-    {
-      "label": "11. REFERENCIAS RAPIDAS",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L419",
-      "_origin": "ast",
-      "id": "claude_11_referencias_rapidas",
-      "community": 7,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "norm_label": "11. referencias rapidas"
     },
     {
       "label": "README.md",
@@ -1275,8 +736,8 @@
       "source_location": "L43",
       "community": 23,
       "norm_label": "body",
-      "id": "radar_sebrae_action_server_body",
-      "community_name": "body"
+      "community_name": "body",
+      "id": "radar_sebrae_action_server_body"
     },
     {
       "label": "setor",
@@ -1285,8 +746,8 @@
       "source_location": "L62",
       "community": 40,
       "norm_label": "setor",
-      "id": "radar_sebrae_action_server_setor",
-      "community_name": "setor"
+      "community_name": "setor",
+      "id": "radar_sebrae_action_server_setor"
     },
     {
       "label": "termo",
@@ -1295,8 +756,8 @@
       "source_location": "L63",
       "community": 41,
       "norm_label": "termo",
-      "id": "radar_sebrae_action_server_termo",
-      "community_name": "termo"
+      "community_name": "termo",
+      "id": "radar_sebrae_action_server_termo"
     },
     {
       "label": "resultados",
@@ -1305,8 +766,8 @@
       "source_location": "L66",
       "community": 37,
       "norm_label": "resultados",
-      "id": "radar_sebrae_action_server_resultados",
-      "community_name": "resultados"
+      "community_name": "resultados",
+      "id": "radar_sebrae_action_server_resultados"
     },
     {
       "label": "paineis",
@@ -1315,8 +776,8 @@
       "source_location": "L83",
       "community": 34,
       "norm_label": "paineis",
-      "id": "radar_sebrae_action_server_paineis",
-      "community_name": "paineis"
+      "community_name": "paineis",
+      "id": "radar_sebrae_action_server_paineis"
     },
     {
       "label": "cnae",
@@ -1325,8 +786,8 @@
       "source_location": "L97",
       "community": 27,
       "norm_label": "cnae",
-      "id": "radar_sebrae_action_server_cnae",
-      "community_name": "cnae"
+      "community_name": "cnae",
+      "id": "radar_sebrae_action_server_cnae"
     },
     {
       "label": "raio",
@@ -1335,8 +796,8 @@
       "source_location": "L98",
       "community": 36,
       "norm_label": "raio",
-      "id": "radar_sebrae_action_server_raio",
-      "community_name": "raio"
+      "community_name": "raio",
+      "id": "radar_sebrae_action_server_raio"
     },
     {
       "label": "empresas",
@@ -1345,8 +806,8 @@
       "source_location": "L101",
       "community": 29,
       "norm_label": "empresas",
-      "id": "radar_sebrae_action_server_empresas",
-      "community_name": "empresas"
+      "community_name": "empresas",
+      "id": "radar_sebrae_action_server_empresas"
     },
     {
       "label": "lines",
@@ -1355,8 +816,8 @@
       "source_location": "L107",
       "community": 30,
       "norm_label": "lines",
-      "id": "radar_sebrae_action_server_lines",
-      "community_name": "lines"
+      "community_name": "lines",
+      "id": "radar_sebrae_action_server_lines"
     },
     {
       "label": "search",
@@ -1365,8 +826,8 @@
       "source_location": "L129",
       "community": 38,
       "norm_label": "search",
-      "id": "radar_sebrae_action_server_search",
-      "community_name": "search"
+      "community_name": "search",
+      "id": "radar_sebrae_action_server_search"
     },
     {
       "label": "blocos",
@@ -1375,8 +836,8 @@
       "source_location": "L131",
       "community": 22,
       "norm_label": "blocos",
-      "id": "radar_sebrae_action_server_blocos",
-      "community_name": "blocos"
+      "community_name": "blocos",
+      "id": "radar_sebrae_action_server_blocos"
     },
     {
       "label": "secoes",
@@ -1385,8 +846,8 @@
       "source_location": "L154",
       "community": 39,
       "norm_label": "secoes",
-      "id": "radar_sebrae_action_server_secoes",
-      "community_name": "secoes"
+      "community_name": "secoes",
+      "id": "radar_sebrae_action_server_secoes"
     },
     {
       "label": "p",
@@ -1395,8 +856,8 @@
       "source_location": "L169",
       "community": 33,
       "norm_label": "p",
-      "id": "radar_sebrae_action_server_p",
-      "community_name": "p"
+      "community_name": "p",
+      "id": "radar_sebrae_action_server_p"
     },
     {
       "label": "wb",
@@ -1405,8 +866,8 @@
       "source_location": "L171",
       "community": 43,
       "norm_label": "wb",
-      "id": "radar_sebrae_action_server_wb",
-      "community_name": "wb"
+      "community_name": "wb",
+      "id": "radar_sebrae_action_server_wb"
     },
     {
       "label": "preview",
@@ -1415,8 +876,8 @@
       "source_location": "L172",
       "community": 35,
       "norm_label": "preview",
-      "id": "radar_sebrae_action_server_preview",
-      "community_name": "preview"
+      "community_name": "preview",
+      "id": "radar_sebrae_action_server_preview"
     },
     {
       "label": "aoa",
@@ -1425,8 +886,8 @@
       "source_location": "L172",
       "community": 21,
       "norm_label": "aoa",
-      "id": "radar_sebrae_action_server_aoa",
-      "community_name": "aoa"
+      "community_name": "aoa",
+      "id": "radar_sebrae_action_server_aoa"
     },
     {
       "label": "m",
@@ -1435,8 +896,8 @@
       "source_location": "L187",
       "community": 31,
       "norm_label": "m",
-      "id": "radar_sebrae_action_server_m",
-      "community_name": "m"
+      "community_name": "m",
+      "id": "radar_sebrae_action_server_m"
     },
     {
       "label": "col()",
@@ -1445,8 +906,8 @@
       "source_location": "L189",
       "community": 28,
       "norm_label": "col()",
-      "id": "radar_sebrae_action_server_col",
-      "community_name": "col"
+      "community_name": "col",
+      "id": "radar_sebrae_action_server_col"
     },
     {
       "label": "c0",
@@ -1455,8 +916,8 @@
       "source_location": "L190",
       "community": 24,
       "norm_label": "c0",
-      "id": "radar_sebrae_action_server_c0",
-      "community_name": "c0"
+      "community_name": "c0",
+      "id": "radar_sebrae_action_server_c0"
     },
     {
       "label": "c1",
@@ -1465,8 +926,8 @@
       "source_location": "L190",
       "community": 25,
       "norm_label": "c1",
-      "id": "radar_sebrae_action_server_c1",
-      "community_name": "c1"
+      "community_name": "c1",
+      "id": "radar_sebrae_action_server_c1"
     },
     {
       "label": "slice",
@@ -1475,8 +936,8 @@
       "source_location": "L191",
       "community": 2,
       "norm_label": "slice",
-      "id": "radar_sebrae_action_server_slice",
-      "community_name": "slice"
+      "community_name": "slice",
+      "id": "radar_sebrae_action_server_slice"
     },
     {
       "label": "urls",
@@ -1485,8 +946,8 @@
       "source_location": "L230",
       "community": 42,
       "norm_label": "urls",
-      "id": "radar_sebrae_action_server_urls",
-      "community_name": "urls"
+      "community_name": "urls",
+      "id": "radar_sebrae_action_server_urls"
     },
     {
       "label": "out",
@@ -1495,8 +956,8 @@
       "source_location": "L231",
       "community": 32,
       "norm_label": "out",
-      "id": "radar_sebrae_action_server_out",
-      "community_name": "out"
+      "community_name": "out",
+      "id": "radar_sebrae_action_server_out"
     },
     {
       "label": "chaves",
@@ -1505,8 +966,8 @@
       "source_location": "L235",
       "community": 26,
       "norm_label": "chaves",
-      "id": "radar_sebrae_action_server_chaves",
-      "community_name": "chaves"
+      "community_name": "chaves",
+      "id": "radar_sebrae_action_server_chaves"
     },
     {
       "label": "code:block1 ({)",
@@ -1515,8 +976,8 @@
       "source_location": "L296",
       "community": 19,
       "norm_label": "code:block1 ({)",
-      "id": "radar_sebrae_action_claude_codeblock_1",
-      "community_name": "code:block1 ({)"
+      "community_name": "code:block1 ({)",
+      "id": "radar_sebrae_action_claude_codeblock_1"
     },
     {
       "label": "code:block2 (.claude)",
@@ -1525,8 +986,8 @@
       "source_location": "L320",
       "community": 4,
       "norm_label": "code:block2 (.claude)",
-      "id": "radar_sebrae_action_claude_codeblock_2",
-      "community_name": "code:block2 (.claude)"
+      "community_name": "code:block2 (.claude)",
+      "id": "radar_sebrae_action_claude_codeblock_2"
     },
     {
       "label": "code:block3 (.gitignore)",
@@ -1535,8 +996,8 @@
       "source_location": "L329",
       "community": 20,
       "norm_label": "code:block3 (.gitignore)",
-      "id": "radar_sebrae_action_claude_codeblock_3",
-      "community_name": "code:block3 (.gitignore)"
+      "community_name": "code:block3 (.gitignore)",
+      "id": "radar_sebrae_action_claude_codeblock_3"
     },
     {
       "label": "code:block1 (Trabalhando em fmunizmcorp/radar-sebrae-action. Como Engenhe)",
@@ -1545,8 +1006,8 @@
       "source_location": "L8",
       "community": 10,
       "norm_label": "code:block1 (trabalhando em fmunizmcorp/radar-sebrae-action. como engenhe)",
-      "id": "claude_prompts_codeblock_1",
-      "community_name": "code:block1 (Trabalhando em fmunizmcorp/radar-sebrae-action. Como Engenhe)"
+      "community_name": "code:block1 (Trabalhando em fmunizmcorp/radar-sebrae-action. Como Engenhe)",
+      "id": "claude_prompts_codeblock_1"
     },
     {
       "label": "code:block2 (Feature nova em fmunizmcorp/radar-sebrae-action: <DESCRICAO>)",
@@ -1555,8 +1016,8 @@
       "source_location": "L19",
       "community": 11,
       "norm_label": "code:block2 (feature nova em fmunizmcorp/radar-sebrae-action: <descricao>)",
-      "id": "claude_prompts_codeblock_2",
-      "community_name": "code:block2 (Feature nova em fmunizmcorp/radar-sebrae-action: <DESCRICAO>)"
+      "community_name": "code:block2 (Feature nova em fmunizmcorp/radar-sebrae-action: <DESCRICAO>)",
+      "id": "claude_prompts_codeblock_2"
     },
     {
       "label": "code:block3 (Bug em fmunizmcorp/radar-sebrae-action: <DESCRICAO + STACK T)",
@@ -1565,8 +1026,8 @@
       "source_location": "L36",
       "community": 14,
       "norm_label": "code:block3 (bug em fmunizmcorp/radar-sebrae-action: <descricao + stack t)",
-      "id": "claude_prompts_codeblock_3",
-      "community_name": "code:block3 (Bug em fmunizmcorp/radar-sebrae-action: <DESCRICAO + STACK T)"
+      "community_name": "code:block3 (Bug em fmunizmcorp/radar-sebrae-action: <DESCRICAO + STACK T)",
+      "id": "claude_prompts_codeblock_3"
     },
     {
       "label": "code:block4 (Auditoria em fmunizmcorp/radar-sebrae-action: <ESCOPO>)",
@@ -1575,8 +1036,8 @@
       "source_location": "L50",
       "community": 16,
       "norm_label": "code:block4 (auditoria em fmunizmcorp/radar-sebrae-action: <escopo>)",
-      "id": "claude_prompts_codeblock_4",
-      "community_name": "code:block4 (Auditoria em fmunizmcorp/radar-sebrae-action: <ESCOPO>)"
+      "community_name": "code:block4 (Auditoria em fmunizmcorp/radar-sebrae-action: <ESCOPO>)",
+      "id": "claude_prompts_codeblock_4"
     },
     {
       "label": "code:block5 (Deploy em fmunizmcorp/radar-sebrae-action: versao <X.Y.Z>)",
@@ -1585,8 +1046,8 @@
       "source_location": "L65",
       "community": 17,
       "norm_label": "code:block5 (deploy em fmunizmcorp/radar-sebrae-action: versao <x.y.z>)",
-      "id": "claude_prompts_codeblock_5",
-      "community_name": "code:block5 (Deploy em fmunizmcorp/radar-sebrae-action: versao <X.Y.Z>)"
+      "community_name": "code:block5 (Deploy em fmunizmcorp/radar-sebrae-action: versao <X.Y.Z>)",
+      "id": "claude_prompts_codeblock_5"
     },
     {
       "label": "code:block6 (Descobri novo padrao em fmunizmcorp/radar-sebrae-action que )",
@@ -1595,8 +1056,8 @@
       "source_location": "L82",
       "community": 18,
       "norm_label": "code:block6 (descobri novo padrao em fmunizmcorp/radar-sebrae-action que )",
-      "id": "claude_prompts_codeblock_6",
-      "community_name": "code:block6 (Descobri novo padrao em fmunizmcorp/radar-sebrae-action que )"
+      "community_name": "code:block6 (Descobri novo padrao em fmunizmcorp/radar-sebrae-action que )",
+      "id": "claude_prompts_codeblock_6"
     }
   ],
   "links": [
@@ -1607,9 +1068,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies"
+      "target": "package_dependencies",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1618,9 +1079,9 @@
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name"
+      "target": "package_name",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1629,9 +1090,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts"
+      "target": "package_scripts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1640,9 +1101,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type"
+      "target": "package_type",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1651,9 +1112,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version"
+      "target": "package_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1662,9 +1123,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start"
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1673,9 +1134,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express"
+      "target": "package_dependencies_express",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1684,9 +1145,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express_rate_limit"
+      "target": "package_dependencies_express_rate_limit",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1695,9 +1156,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_helmet"
+      "target": "package_dependencies_helmet",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1706,9 +1167,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_p_retry"
+      "target": "package_dependencies_p_retry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1717,9 +1178,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_pdf_parse"
+      "target": "package_dependencies_pdf_parse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1728,9 +1189,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_playwright"
+      "target": "package_dependencies_playwright",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1739,9 +1200,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_xlsx"
+      "target": "package_dependencies_xlsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1750,9 +1211,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_zod"
+      "target": "package_dependencies_zod",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1762,9 +1223,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_express",
-      "target": "express"
+      "target": "express",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1774,9 +1235,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_express_rate_limit",
-      "target": "express_rate_limit"
+      "target": "express_rate_limit",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1786,9 +1247,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_helmet",
-      "target": "helmet"
+      "target": "helmet",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1798,9 +1259,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_playwright",
-      "target": "playwright"
+      "target": "playwright",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1810,9 +1271,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_p_retry",
-      "target": "p_retry"
+      "target": "p_retry",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1822,9 +1283,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_xlsx",
-      "target": "xlsx"
+      "target": "xlsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1834,9 +1295,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_zod",
-      "target": "zod"
+      "target": "zod",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1846,9 +1307,9 @@
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_dependencies_pdf_parse",
-      "target": "pdf_parse"
+      "target": "pdf_parse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1857,9 +1318,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_app"
+      "target": "server_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1868,9 +1329,9 @@
       "source_location": "L51",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_clicksearch"
+      "target": "server_clicksearch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1879,9 +1340,9 @@
       "source_location": "L210",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_extracturls"
+      "target": "server_extracturls",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1890,9 +1351,9 @@
       "source_location": "L176",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_financebody"
+      "target": "server_financebody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1901,9 +1362,9 @@
       "source_location": "L205",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_pdfbody"
+      "target": "server_pdfbody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1912,9 +1373,9 @@
       "source_location": "L121",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_planejadorabody"
+      "target": "server_planejadorabody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1923,9 +1384,9 @@
       "source_location": "L144",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_pnboxbody"
+      "target": "server_pnboxbody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1934,9 +1395,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_radarbody"
+      "target": "server_radarbody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1945,9 +1406,9 @@
       "source_location": "L45",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_setlocal"
+      "target": "server_setlocal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1956,9 +1417,9 @@
       "source_location": "L214",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_snippets"
+      "target": "server_snippets",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1967,9 +1428,9 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_waitidle"
+      "target": "server_waitidle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1978,9 +1439,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server",
-      "target": "server_withbrowser"
+      "target": "server_withbrowser",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1990,9 +1451,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "server_clicksearch",
-      "target": "server_waitidle"
+      "target": "server_waitidle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2001,9 +1462,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador",
-      "target": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action"
+      "target": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2012,9 +1473,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_criticidade"
+      "target": "claude_orquestrador_criticidade",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2023,9 +1484,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_decisoes_que_nao_sao_suas"
+      "target": "claude_orquestrador_decisoes_que_nao_sao_suas",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2034,9 +1495,9 @@
       "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma"
+      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2045,9 +1506,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_dominio_de_atuacao"
+      "target": "claude_orquestrador_dominio_de_atuacao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2056,9 +1517,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_missao"
+      "target": "claude_orquestrador_missao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2067,9 +1528,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_persona"
+      "target": "claude_orquestrador_persona",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2078,9 +1539,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_squad_sob_sua_coordenacao"
+      "target": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2089,9 +1550,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_stack"
+      "target": "claude_orquestrador_stack",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2100,9 +1561,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_orquestrador_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma"
+      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2111,9 +1572,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_squad_sob_sua_coordenacao",
-      "target": "claude_orquestrador_especialistas_deste_projeto"
+      "target": "claude_orquestrador_especialistas_deste_projeto",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2122,86 +1583,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_orquestrador_squad_sob_sua_coordenacao",
-      "target": "claude_orquestrador_sempre_disponiveis_basais"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts",
-      "target": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_1_comeco_de_sessao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_2_implementacao_de_feature"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_3_bug_fix"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_4_auditoria_revisao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_5_deploy_e_validacao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/prompts.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_prompts_template_7_atualizacao_de_skills"
+      "target": "claude_orquestrador_sempre_disponiveis_basais",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2210,9 +1594,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_skills",
-      "target": "claude_skills_skills_aplicaveis_node_js_typescript"
+      "target": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2221,9 +1605,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_skills_skills_aplicaveis_node_js_typescript",
-      "target": "claude_skills_basais_sempre"
+      "target": "claude_skills_basais_sempre",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2232,9 +1616,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_skills_skills_aplicaveis_node_js_typescript",
-      "target": "claude_skills_condicionais"
+      "target": "claude_skills_condicionais",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2243,449 +1627,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "claude_skills_skills_aplicaveis_node_js_typescript",
-      "target": "claude_skills_padroes_obrigatorios_node_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L158",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_claude_md_fmunizmcorp_radar_sebrae_action"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L22",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L69",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L98",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L120",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L124",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_6_padroes_brasil_obrigatorios"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L88",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "claude_fluxo_padrao_quando_o_usuario_pede_arquivo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L377",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_10_checklist_de_entrega_obrigatorio"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L419",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_11_referencias_rapidas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L192",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_1_identidade_do_projeto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L200",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_2_seu_papel_orquestrador"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L218",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_3_squad_de_ias_skills_aplicaveis"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L237",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_4_metodologia_de_trabalho"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L285",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_5_conhecimento_especifico_do_projeto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L294",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_6_stack_tecnologico_de_package_json"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L316",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_7_estrutura_do_repo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L339",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_9_aprendizado_e_atualizacao_continua"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L178",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_zero_1_excelencia_total_regras_inegociaveis"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L163",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_claude_md_fmunizmcorp_radar_sebrae_action",
-      "target": "claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L233",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_quando_usar_cada_skill"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L220",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_skills_basais_sempre_validas_em_qualquer_tarefa"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L228",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_skills_especificas_deste_projeto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L239",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_4_metodologia_de_trabalho",
-      "target": "claude_fluxo_padrao_para_qualquer_tarefa"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L275",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_4_metodologia_de_trabalho",
-      "target": "claude_padroes_obrigatorios"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L289",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_5_conhecimento_especifico_do_projeto",
-      "target": "claude_estruturas_centrais_god_nodes_pelo_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L327",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_7_estrutura_do_repo",
-      "target": "claude_arquivos_da_raiz_amostra"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L318",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_7_estrutura_do_repo",
-      "target": "claude_diretorios_principais"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L341",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_9_aprendizado_e_atualizacao_continua",
-      "target": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L367",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_9_aprendizado_e_atualizacao_continua",
-      "target": "claude_triggers_para_regenerar_grafo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L381",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_codigo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L405",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_deploy"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L397",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_documentacao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L413",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_sinalizar_conclusao"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L389",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_testes"
+      "target": "claude_skills_padroes_obrigatorios_node_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2694,9 +1638,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_radar_sebrae_action"
+      "target": "readme_radar_sebrae_action",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2705,9 +1649,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_aprendizados",
-      "target": "docs_aprendizados_aprendizados_fmunizmcorp_radar_sebrae_action"
+      "target": "docs_aprendizados_aprendizados_fmunizmcorp_radar_sebrae_action",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2716,9 +1660,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizmcorp_radar_sebrae_action",
-      "target": "docs_aprendizados_aprendizados"
+      "target": "docs_aprendizados_aprendizados",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2727,9 +1671,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizmcorp_radar_sebrae_action",
-      "target": "docs_aprendizados_como_usar"
+      "target": "docs_aprendizados_como_usar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2738,9 +1682,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados",
-      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria"
+      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2749,9 +1693,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_historico",
-      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_radar_sebrae_action"
+      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_radar_sebrae_action",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2760,9 +1704,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizmcorp_radar_sebrae_action",
-      "target": "docs_historico_como_usar"
+      "target": "docs_historico_como_usar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2771,9 +1715,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizmcorp_radar_sebrae_action",
-      "target": "docs_historico_historico"
+      "target": "docs_historico_historico",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2782,11 +1726,11 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "docs_historico_historico",
-      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao"
+      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "41c2baf1c3aef7de18e4432f1cf1636fddbca061"
+  "built_at_commit": "6c0a54892fd4fa31253d205d77d35f4d5dd0e897"
 }
