@@ -283,6 +283,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L23",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_withbrowser",
       "community": 0,
@@ -294,6 +295,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L30",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_waitidle",
       "community": 0,
@@ -316,6 +318,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L45",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_setlocal",
       "community": 0,
@@ -327,6 +330,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L51",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_clicksearch",
       "community": 0,
@@ -382,6 +386,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L210",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_extracturls",
       "community": 0,
@@ -393,6 +398,7 @@
       "file_type": "code",
       "source_file": "server.js",
       "source_location": "L214",
+      "_callable": true,
       "_origin": "ast",
       "id": "server_snippets",
       "community": 0,
@@ -2458,5 +2464,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "80b038de5cd47343b0520f3c3c7843627cbc6a06"
+  "built_at_commit": "8553c47b2032233a4e82c31c9051a4caee43c861"
 }
