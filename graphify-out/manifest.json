@@ -1,85 +1,85 @@
 {
   "package.json": {
-    "mtime": 1787465878.9012773,
-    "seen": 1787465891.205004,
+    "mtime": 1787552957.754172,
+    "seen": 1787552977.7818105,
     "ast_hash": "447c30d44e22913ca95ac2d26c3a2a96",
     "semantic_hash": ""
   },
   "server.js": {
-    "mtime": 1787465878.9012773,
-    "seen": 1787465891.2050073,
+    "mtime": 1787552957.754172,
+    "seen": 1787552977.7818127,
     "ast_hash": "d0d6e60d76fdfef66cc569dcf95b9f17",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1787465878.8873508,
-    "seen": 1787465891.2050142,
+    "mtime": 1787552957.7449296,
+    "seen": 1787552977.7818158,
     "ast_hash": "2667998024c804026bb2016cc7eb9e4c",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787465878.8873508,
-    "seen": 1787465891.2050157,
+    "mtime": 1787552957.7449296,
+    "seen": 1787552977.7818162,
     "ast_hash": "18db5d727cb347264d5566ee20832def",
     "semantic_hash": ""
   },
   "openapi.yaml": {
-    "mtime": 1787465878.9012773,
-    "seen": 1787465891.205019,
+    "mtime": 1787552957.754172,
+    "seen": 1787552977.7818182,
     "ast_hash": "be9137f7c648d2335a07d803a984181b",
     "semantic_hash": ""
   },
   "docs/APRENDIZADOS.md": {
-    "mtime": 1787465878.900274,
-    "seen": 1787465891.2050169,
+    "mtime": 1787552957.7536645,
+    "seen": 1787552977.7818167,
     "ast_hash": "60c4b6404928e5a3a45f38e7fb7d67ee",
     "semantic_hash": ""
   },
   "docs/HISTORICO.md": {
-    "mtime": 1787465878.9011445,
-    "seen": 1787465891.2050178,
+    "mtime": 1787552957.7540772,
+    "seen": 1787552977.7818174,
     "ast_hash": "2d79084bed00d3cb9ceae7cfcf1fb5f2",
     "semantic_hash": ""
   },
   ".github/workflows/graphify.yml": {
-    "mtime": 1787465878.8873508,
-    "seen": 1787465891.2050133,
+    "mtime": 1787552957.7449296,
+    "seen": 1787552977.7818153,
     "ast_hash": "3f73f40d0b691c5e97a37ddbe3d87734",
     "semantic_hash": ""
   },
   ".claude/skills.md": {
-    "mtime": 1787465878.887225,
-    "seen": 1787465891.205012,
+    "mtime": 1787552957.744839,
+    "seen": 1787552977.7818148,
     "ast_hash": "8ec2ceabf3ea60d5512ce626ca6e0170",
     "semantic_hash": ""
   },
   ".claude/prompts.md": {
-    "mtime": 1787465878.887225,
-    "seen": 1787465891.2050107,
+    "mtime": 1787552957.744839,
+    "seen": 1787552977.7818143,
     "ast_hash": "36f65ebb73ecb6960de507d0c21cc0ff",
     "semantic_hash": ""
   },
   ".claude/orquestrador.md": {
-    "mtime": 1787465878.8862739,
-    "seen": 1787465891.2050095,
+    "mtime": 1787552957.7446644,
+    "seen": 1787552977.7818136,
     "ast_hash": "7aa632e51166dff4dde5be756ae4e0db",
     "semantic_hash": ""
   },
   "assets/finep GuiaRapido.pdf": {
-    "mtime": 1787465878.897274,
-    "seen": 1787465891.2050242,
+    "mtime": 1787552957.7516646,
+    "seen": 1787552977.7818215,
     "ast_hash": "a0f07c918aba63f7001ab780e9bb90c2",
     "semantic_hash": ""
   },
   "assets/Guia Completo de Linhas de Cr\u00e9dito para Empresas no Brasil.pdf": {
-    "mtime": 1787465878.893274,
-    "seen": 1787465891.205023,
+    "mtime": 1787552957.7496645,
+    "seen": 1787552977.781821,
     "ast_hash": "433a462d821031102dd8b2c1927e7595",
     "semantic_hash": ""
   },
   "assets/Genspark - Transforma\u00e7\u00e3o de Manual de Linhas de Cr\u00e9dito em HTML.pdf": {
-    "mtime": 1787465878.893274,
-    "seen": 1787465891.2050211,
+    "mtime": 1787552957.7486646,
+    "seen": 1787552977.78182,
     "ast_hash": "0f6d6258f497f832aef853ed3ec5a9f6",
     "semantic_hash": ""
   }
