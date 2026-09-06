@@ -1,16 +1,16 @@
-# Graph Report - radar-sebrae-action  (2026-08-18)
+# Graph Report - radar-sebrae-action  (2026-09-06)
 
 ## Corpus Check
 - 9 files · ~5,033 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 115 nodes · 107 edges · 12 communities (11 shown, 1 thin omitted)
+- 115 nodes · 115 edges · 11 communities (10 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d61c9888`
+- Built from commit: `32620a94`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,7 +26,6 @@
 - Orquestrador - fmunizmcorp/radar-sebrae-action
 - Skills aplicaveis (Node.js / TypeScript)
 - README.md
-- package.json
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md - fmunizmcorp/radar-sebrae-action` - 13 edges
@@ -46,11 +45,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (12 total, 1 thin omitted)
+## Communities (11 total, 1 thin omitted)
 
 ### Community 0 - "server.js"
-Cohesion: 0.17
-Nodes (8): app, clickSearch(), FinanceBody, PdfBody, PlanejadoraBody, PNBoxBody, RadarBody, waitIdle()
+Cohesion: 0.10
+Nodes (21): name, scripts, start, type, version, express, express-rate-limit, helmet (+13 more)
 
 ### Community 1 - "CLAUDE.md - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.09
@@ -77,8 +76,8 @@ Cohesion: 0.40
 Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizmcorp/radar-sebrae-action, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
 
 ### Community 8 - "dependencies"
-Cohesion: 0.12
-Nodes (17): express, express-rate-limit, helmet, p-retry, dependencies, express, express-rate-limit, helmet (+9 more)
+Cohesion: 0.22
+Nodes (9): dependencies, express, express-rate-limit, helmet, p-retry, pdf-parse, playwright, xlsx (+1 more)
 
 ### Community 12 - "Orquestrador - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.15
@@ -88,13 +87,9 @@ Nodes (12): Criticidade, Decisoes que NAO sao suas, Decisoes que voce (orquestra
 Cohesion: 0.40
 Nodes (4): Basais (sempre), Condicionais, Padroes obrigatorios Node/TS, Skills aplicaveis (Node.js / TypeScript)
 
-### Community 44 - "package.json"
-Cohesion: 0.33
-Nodes (5): name, scripts, start, type, version
-
 ## Knowledge Gaps
 - **73 isolated node(s):** `name`, `version`, `type`, `start`, `express` (+68 more)
-  These have ≤1 connection - possible missing edges or undocumented components.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 83 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -102,11 +97,11 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CLAUDE.md - fmunizmcorp/radar-sebrae-action` connect `CLAUDE.md - fmunizmcorp/radar-sebrae-action` to `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA`, `10. CHECKLIST DE ENTREGA OBRIGATORIO`?**
   _High betweenness centrality (0.104) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `dependencies` to `package.json`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `dependencies` connect `dependencies` to `server.js`?**
+  _High betweenness centrality (0.038) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `type` to the rest of the system?**
   _73 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `server.js` be split into smaller, more focused modules?**
+  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
 - **Should `CLAUDE.md - fmunizmcorp/radar-sebrae-action` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
-- **Should `dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
