@@ -1,8 +1,9 @@
-# Graph Report - radar-sebrae-action  (2026-09-06)
+# Graph Report - radar-sebrae-action  (2026-09-16)
 
 ## Corpus Check
 - 9 files · ~5,033 words
 - Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 4 file(s) not represented in the graph (top: (none) 3, .xlsm 1)
 
 ## Summary
 - 115 nodes · 115 edges · 11 communities (10 shown, 1 thin omitted)
@@ -10,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `32620a94`
+- Built from commit: `6288161c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
