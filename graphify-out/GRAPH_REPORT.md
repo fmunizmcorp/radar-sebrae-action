@@ -1,4 +1,4 @@
-# Graph Report - radar-sebrae-action  (2026-09-16)
+# Graph Report - radar-sebrae-action  (2026-09-17)
 
 ## Corpus Check
 - 9 files · ~5,033 words
@@ -6,12 +6,12 @@
 - Unclassified: 4 file(s) not represented in the graph (top: (none) 3, .xlsm 1)
 
 ## Summary
-- 115 nodes · 115 edges · 11 communities (10 shown, 1 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 117 nodes · 119 edges · 12 communities (11 shown, 1 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6288161c`
+- Built from commit: `0724cf86`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,9 +20,10 @@
 - CLAUDE.md - fmunizmcorp/radar-sebrae-action
 - ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA
 - Prompts e Templates - fmunizmcorp/radar-sebrae-action
-- 10. CHECKLIST DE ENTREGA OBRIGATORIO
+- 3. SQUAD DE IAs (skills aplicaveis)
 - Aprendizados - fmunizmcorp/radar-sebrae-action
 - Historico de Sessoes - fmunizmcorp/radar-sebrae-action
+- Estruturas centrais (God Nodes pelo Graphify)
 - dependencies
 - Orquestrador - fmunizmcorp/radar-sebrae-action
 - Skills aplicaveis (Node.js / TypeScript)
@@ -36,25 +37,28 @@
 5. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
 6. `Skills aplicaveis (Node.js / TypeScript)` - 4 edges
 7. `3. SQUAD DE IAs (skills aplicaveis)` - 4 edges
-8. `Squad sob sua coordenacao` - 3 edges
-9. `REGRA 2.5 - GERACAO DE ARQUIVOS (Excel, PDF, DOCX, PPTX) - SKILLS XLSX/PDF/DOCX/PPTX` - 3 edges
-10. `4. METODOLOGIA DE TRABALHO` - 3 edges
+8. `waitIdle()` - 3 edges
+9. `clickSearch()` - 3 edges
+10. `Squad sob sua coordenacao` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `Estruturas centrais (God Nodes pelo Graphify)` --references--> `waitIdle()`  [INFERRED]
+  CLAUDE.md → server.js
+- `Estruturas centrais (God Nodes pelo Graphify)` --references--> `clickSearch()`  [INFERRED]
+  CLAUDE.md → server.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (11 total, 1 thin omitted)
+## Communities (12 total, 1 thin omitted)
 
 ### Community 0 - "server.js"
-Cohesion: 0.10
-Nodes (21): name, scripts, start, type, version, express, express-rate-limit, helmet (+13 more)
+Cohesion: 0.09
+Nodes (21): name, scripts, start, type, version, express, express-rate-limit, ref_fs (+13 more)
 
 ### Community 1 - "CLAUDE.md - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.09
-Nodes (22): 11. REFERENCIAS RAPIDAS, 1. IDENTIDADE DO PROJETO, 2. SEU PAPEL - ORQUESTRADOR, 3. SQUAD DE IAs (skills aplicaveis), 4. METODOLOGIA DE TRABALHO, 5. CONHECIMENTO ESPECIFICO DO PROJETO, 6. STACK TECNOLOGICO (de `package.json`), 7. ESTRUTURA DO REPO (+14 more)
+Nodes (22): 10. CHECKLIST DE ENTREGA OBRIGATORIO, 11. REFERENCIAS RAPIDAS, 1. IDENTIDADE DO PROJETO, 2. SEU PAPEL - ORQUESTRADOR, 4. METODOLOGIA DE TRABALHO, 6. STACK TECNOLOGICO (de `package.json`), 7. ESTRUTURA DO REPO, 9. APRENDIZADO E ATUALIZACAO CONTINUA (+14 more)
 
 ### Community 2 - "ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA"
 Cohesion: 0.15
@@ -64,9 +68,9 @@ Nodes (12): ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA C
 Cohesion: 0.25
 Nodes (7): Prompts e Templates - fmunizmcorp/radar-sebrae-action, Template 1: Comeco de sessao, Template 2: Implementacao de feature, Template 3: Bug fix, Template 4: Auditoria/revisao, Template 5: Deploy e validacao, Template 7: Atualizacao de skills
 
-### Community 4 - "10. CHECKLIST DE ENTREGA OBRIGATORIO"
-Cohesion: 0.33
-Nodes (6): 10. CHECKLIST DE ENTREGA OBRIGATORIO, Codigo, Deploy, Documentacao, Sinalizar conclusao, Testes
+### Community 4 - "3. SQUAD DE IAs (skills aplicaveis)"
+Cohesion: 0.50
+Nodes (4): 3. SQUAD DE IAs (skills aplicaveis), Quando usar cada skill, Skills BASAIS (sempre validas em qualquer tarefa), Skills ESPECIFICAS deste projeto
 
 ### Community 5 - "Aprendizados - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.40
@@ -75,6 +79,10 @@ Nodes (4): Aprendizados, Aprendizados - fmunizmcorp/radar-sebrae-action, Como us
 ### Community 6 - "Historico de Sessoes - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.40
 Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizmcorp/radar-sebrae-action, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
+
+### Community 7 - "Estruturas centrais (God Nodes pelo Graphify)"
+Cohesion: 0.67
+Nodes (4): 5. CONHECIMENTO ESPECIFICO DO PROJETO, Estruturas centrais (God Nodes pelo Graphify), clickSearch(), waitIdle()
 
 ### Community 8 - "dependencies"
 Cohesion: 0.22
@@ -89,20 +97,20 @@ Cohesion: 0.40
 Nodes (4): Basais (sempre), Condicionais, Padroes obrigatorios Node/TS, Skills aplicaveis (Node.js / TypeScript)
 
 ## Knowledge Gaps
-- **73 isolated node(s):** `name`, `version`, `type`, `start`, `express` (+68 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 83 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **72 isolated node(s):** `name`, `version`, `type`, `start`, `express` (+67 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 84 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `CLAUDE.md - fmunizmcorp/radar-sebrae-action` connect `CLAUDE.md - fmunizmcorp/radar-sebrae-action` to `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA`, `10. CHECKLIST DE ENTREGA OBRIGATORIO`?**
-  _High betweenness centrality (0.104) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `dependencies` to `server.js`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+- **Why does `CLAUDE.md - fmunizmcorp/radar-sebrae-action` connect `CLAUDE.md - fmunizmcorp/radar-sebrae-action` to `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA`, `3. SQUAD DE IAs (skills aplicaveis)`, `Estruturas centrais (God Nodes pelo Graphify)`?**
+  _High betweenness centrality (0.317) - this node is a cross-community bridge._
+- **Why does `5. CONHECIMENTO ESPECIFICO DO PROJETO` connect `Estruturas centrais (God Nodes pelo Graphify)` to `CLAUDE.md - fmunizmcorp/radar-sebrae-action`?**
+  _High betweenness centrality (0.228) - this node is a cross-community bridge._
 - **What connects `name`, `version`, `type` to the rest of the system?**
-  _73 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _72 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `server.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09401709401709402 - nodes in this community are weakly interconnected._
 - **Should `CLAUDE.md - fmunizmcorp/radar-sebrae-action` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

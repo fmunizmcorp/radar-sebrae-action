@@ -4,18 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "id": "server_clicksearch",
-      "label": "clickSearch()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "server.js",
-      "file_type": "code",
-      "norm_label": "clicksearch()",
-      "source_file": "server.js",
-      "source_location": "L51"
-    },
-    {
       "id": "server_extracturls",
       "label": "extractUrls()",
       "_callable": true,
@@ -52,18 +40,6 @@
       "source_location": "L214"
     },
     {
-      "id": "server_waitidle",
-      "label": "waitIdle()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "server.js",
-      "file_type": "code",
-      "norm_label": "waitidle()",
-      "source_file": "server.js",
-      "source_location": "L30"
-    },
-    {
       "id": "server_withbrowser",
       "label": "withBrowser()",
       "_callable": true,
@@ -74,6 +50,30 @@
       "norm_label": "withbrowser()",
       "source_file": "server.js",
       "source_location": "L23"
+    },
+    {
+      "id": "server_clicksearch",
+      "label": "clickSearch()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Estruturas centrais (God Nodes pelo Graphify)",
+      "file_type": "code",
+      "norm_label": "clicksearch()",
+      "source_file": "server.js",
+      "source_location": "L51"
+    },
+    {
+      "id": "server_waitidle",
+      "label": "waitIdle()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Estruturas centrais (God Nodes pelo Graphify)",
+      "file_type": "code",
+      "norm_label": "waitidle()",
+      "source_file": "server.js",
+      "source_location": "L30"
     },
     {
       "id": "package",
@@ -307,6 +307,18 @@
       "source_location": "L13"
     },
     {
+      "id": "claude_10_checklist_de_entrega_obrigatorio",
+      "label": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "10. checklist de entrega obrigatorio",
+      "source_file": "CLAUDE.md",
+      "source_location": "L377"
+    },
+    {
       "id": "claude_11_referencias_rapidas",
       "label": "11. REFERENCIAS RAPIDAS",
       "_origin": "ast",
@@ -343,18 +355,6 @@
       "source_location": "L200"
     },
     {
-      "id": "claude_3_squad_de_ias_skills_aplicaveis",
-      "label": "3. SQUAD DE IAs (skills aplicaveis)",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. squad de ias (skills aplicaveis)",
-      "source_file": "CLAUDE.md",
-      "source_location": "L218"
-    },
-    {
       "id": "claude_4_metodologia_de_trabalho",
       "label": "4. METODOLOGIA DE TRABALHO",
       "_origin": "ast",
@@ -365,18 +365,6 @@
       "norm_label": "4. metodologia de trabalho",
       "source_file": "CLAUDE.md",
       "source_location": "L237"
-    },
-    {
-      "id": "claude_5_conhecimento_especifico_do_projeto",
-      "label": "5. CONHECIMENTO ESPECIFICO DO PROJETO",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5. conhecimento especifico do projeto",
-      "source_file": "CLAUDE.md",
-      "source_location": "L285"
     },
     {
       "id": "claude_6_stack_tecnologico_de_package_json",
@@ -439,6 +427,30 @@
       "source_location": "L158"
     },
     {
+      "id": "claude_codigo",
+      "label": "Codigo",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "codigo",
+      "source_file": "CLAUDE.md",
+      "source_location": "L381"
+    },
+    {
+      "id": "claude_deploy",
+      "label": "Deploy",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "deploy",
+      "source_file": "CLAUDE.md",
+      "source_location": "L405"
+    },
+    {
       "id": "claude_diretorios_principais",
       "label": "Diretorios principais",
       "_origin": "ast",
@@ -451,16 +463,16 @@
       "source_location": "L318"
     },
     {
-      "id": "claude_estruturas_centrais_god_nodes_pelo_graphify",
-      "label": "Estruturas centrais (God Nodes pelo Graphify)",
+      "id": "claude_documentacao",
+      "label": "Documentacao",
       "_origin": "ast",
       "community": 1,
       "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "estruturas centrais (god nodes pelo graphify)",
+      "norm_label": "documentacao",
       "source_file": "CLAUDE.md",
-      "source_location": "L289"
+      "source_location": "L397"
     },
     {
       "id": "claude_fluxo_padrao_para_qualquer_tarefa",
@@ -487,18 +499,6 @@
       "source_location": "L275"
     },
     {
-      "id": "claude_quando_usar_cada_skill",
-      "label": "Quando usar cada skill",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "quando usar cada skill",
-      "source_file": "CLAUDE.md",
-      "source_location": "L233"
-    },
-    {
       "id": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
       "label": "Regra de ouro: SEMPRE atualize o conhecimento do projeto",
       "_origin": "ast",
@@ -511,28 +511,28 @@
       "source_location": "L341"
     },
     {
-      "id": "claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "label": "Skills BASAIS (sempre validas em qualquer tarefa)",
+      "id": "claude_sinalizar_conclusao",
+      "label": "Sinalizar conclusao",
       "_origin": "ast",
       "community": 1,
       "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "skills basais (sempre validas em qualquer tarefa)",
+      "norm_label": "sinalizar conclusao",
       "source_file": "CLAUDE.md",
-      "source_location": "L220"
+      "source_location": "L413"
     },
     {
-      "id": "claude_skills_especificas_deste_projeto",
-      "label": "Skills ESPECIFICAS deste projeto",
+      "id": "claude_testes",
+      "label": "Testes",
       "_origin": "ast",
       "community": 1,
       "community_name": "CLAUDE.md - fmunizmcorp/radar-sebrae-action",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "skills especificas deste projeto",
+      "norm_label": "testes",
       "source_file": "CLAUDE.md",
-      "source_location": "L228"
+      "source_location": "L389"
     },
     {
       "id": "claude_triggers_para_regenerar_grafo",
@@ -1063,76 +1063,52 @@
       "source_location": "L80"
     },
     {
-      "id": "claude_10_checklist_de_entrega_obrigatorio",
-      "label": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "id": "claude_3_squad_de_ias_skills_aplicaveis",
+      "label": "3. SQUAD DE IAs (skills aplicaveis)",
       "_origin": "ast",
       "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "community_name": "3. SQUAD DE IAs (skills aplicaveis)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "10. checklist de entrega obrigatorio",
+      "norm_label": "3. squad de ias (skills aplicaveis)",
       "source_file": "CLAUDE.md",
-      "source_location": "L377"
+      "source_location": "L218"
     },
     {
-      "id": "claude_codigo",
-      "label": "Codigo",
+      "id": "claude_quando_usar_cada_skill",
+      "label": "Quando usar cada skill",
       "_origin": "ast",
       "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "community_name": "3. SQUAD DE IAs (skills aplicaveis)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "codigo",
+      "norm_label": "quando usar cada skill",
       "source_file": "CLAUDE.md",
-      "source_location": "L381"
+      "source_location": "L233"
     },
     {
-      "id": "claude_deploy",
-      "label": "Deploy",
+      "id": "claude_skills_basais_sempre_validas_em_qualquer_tarefa",
+      "label": "Skills BASAIS (sempre validas em qualquer tarefa)",
       "_origin": "ast",
       "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "community_name": "3. SQUAD DE IAs (skills aplicaveis)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "deploy",
+      "norm_label": "skills basais (sempre validas em qualquer tarefa)",
       "source_file": "CLAUDE.md",
-      "source_location": "L405"
+      "source_location": "L220"
     },
     {
-      "id": "claude_documentacao",
-      "label": "Documentacao",
+      "id": "claude_skills_especificas_deste_projeto",
+      "label": "Skills ESPECIFICAS deste projeto",
       "_origin": "ast",
       "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
+      "community_name": "3. SQUAD DE IAs (skills aplicaveis)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "documentacao",
+      "norm_label": "skills especificas deste projeto",
       "source_file": "CLAUDE.md",
-      "source_location": "L397"
-    },
-    {
-      "id": "claude_sinalizar_conclusao",
-      "label": "Sinalizar conclusao",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "sinalizar conclusao",
-      "source_file": "CLAUDE.md",
-      "source_location": "L413"
-    },
-    {
-      "id": "claude_testes",
-      "label": "Testes",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "10. CHECKLIST DE ENTREGA OBRIGATORIO",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "testes",
-      "source_file": "CLAUDE.md",
-      "source_location": "L389"
+      "source_location": "L228"
     },
     {
       "id": "docs_aprendizados",
@@ -1255,6 +1231,30 @@
       "source_location": "L14"
     },
     {
+      "id": "claude_5_conhecimento_especifico_do_projeto",
+      "label": "5. CONHECIMENTO ESPECIFICO DO PROJETO",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Estruturas centrais (God Nodes pelo Graphify)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. conhecimento especifico do projeto",
+      "source_file": "CLAUDE.md",
+      "source_location": "L285"
+    },
+    {
+      "id": "claude_estruturas_centrais_god_nodes_pelo_graphify",
+      "label": "Estruturas centrais (God Nodes pelo Graphify)",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "Estruturas centrais (God Nodes pelo Graphify)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "estruturas centrais (god nodes pelo graphify)",
+      "source_file": "CLAUDE.md",
+      "source_location": "L289"
+    },
+    {
       "id": "package_dependencies",
       "label": "dependencies",
       "_origin": "ast",
@@ -1352,6 +1352,28 @@
       "norm_label": "zod",
       "source_file": "package.json",
       "source_location": "L13"
+    },
+    {
+      "id": "ref_fs",
+      "label": "ref_fs",
+      "community": 0,
+      "community_name": "server.js",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_fs",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_path",
+      "label": "ref_path",
+      "community": 0,
+      "community_name": "server.js",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_path",
+      "source_file": "",
+      "type": "external"
     }
   ],
   "links": [
@@ -1617,6 +1639,30 @@
       "context": "import",
       "source_file": "server.js",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "ref_path",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "server.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "server",
+      "target": "ref_fs",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "server.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -2642,8 +2688,32 @@
       "source_file": "server.js",
       "source_location": "L33",
       "weight": 1.0
+    },
+    {
+      "source": "claude_estruturas_centrais_god_nodes_pelo_graphify",
+      "target": "server_clicksearch",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "clickSearch()",
+      "source_file": "CLAUDE.md",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "claude_estruturas_centrais_god_nodes_pelo_graphify",
+      "target": "server_waitidle",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "waitIdle()",
+      "source_file": "CLAUDE.md",
+      "source_location": "L291",
+      "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6288161c5d2dbc802dc59cd0e27988e76cacc29d"
+  "built_at_commit": "0724cf862db26ab47e0c99f18de4f585f05c6e53"
 }
