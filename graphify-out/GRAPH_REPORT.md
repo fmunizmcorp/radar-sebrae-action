@@ -1,4 +1,4 @@
-# Graph Report - radar-sebrae-action  (2026-09-17)
+# Graph Report - radar-sebrae-action  (2026-10-12)
 
 ## Corpus Check
 - 9 files · ~5,033 words
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0724cf86`
+- Built from commit: `be0a59d6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -54,7 +54,7 @@
 
 ### Community 0 - "server.js"
 Cohesion: 0.09
-Nodes (21): name, scripts, start, type, version, express, express-rate-limit, ref_fs (+13 more)
+Nodes (19): name, scripts, start, type, version, express, express-rate-limit, helmet (+11 more)
 
 ### Community 1 - "CLAUDE.md - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.09
@@ -97,8 +97,6 @@ Cohesion: 0.40
 Nodes (4): Basais (sempre), Condicionais, Padroes obrigatorios Node/TS, Skills aplicaveis (Node.js / TypeScript)
 
 ## Knowledge Gaps
-- **72 isolated node(s):** `name`, `version`, `type`, `start`, `express` (+67 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 84 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -106,11 +104,9 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CLAUDE.md - fmunizmcorp/radar-sebrae-action` connect `CLAUDE.md - fmunizmcorp/radar-sebrae-action` to `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA`, `3. SQUAD DE IAs (skills aplicaveis)`, `Estruturas centrais (God Nodes pelo Graphify)`?**
   _High betweenness centrality (0.317) - this node is a cross-community bridge._
-- **Why does `5. CONHECIMENTO ESPECIFICO DO PROJETO` connect `Estruturas centrais (God Nodes pelo Graphify)` to `CLAUDE.md - fmunizmcorp/radar-sebrae-action`?**
-  _High betweenness centrality (0.228) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `type` to the rest of the system?**
-  _72 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `server.js` be split into smaller, more focused modules?**
   _Cohesion score 0.09401709401709402 - nodes in this community are weakly interconnected._
+- **Why does `5. CONHECIMENTO ESPECIFICO DO PROJETO` connect `Estruturas centrais (God Nodes pelo Graphify)` to `CLAUDE.md - fmunizmcorp/radar-sebrae-action`?**
+  _High betweenness centrality (0.228) - this node is a cross-community bridge._
 - **Should `CLAUDE.md - fmunizmcorp/radar-sebrae-action` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
