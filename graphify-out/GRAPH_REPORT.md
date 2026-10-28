@@ -1,4 +1,4 @@
-# Graph Report - radar-sebrae-action  (2026-10-24)
+# Graph Report - radar-sebrae-action  (2026-10-28)
 
 ## Corpus Check
 - 11 files · ~5,033 words
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ed5df141`
+- Built from commit: `c6bfdc14`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,9 +38,9 @@
 5. `steps` - 6 edges
 6. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
 7. `with` - 5 edges
-8. `graphify` - 4 edges
-9. `Skills aplicaveis (Node.js / TypeScript)` - 4 edges
-10. `3. SQUAD DE IAs (skills aplicaveis)` - 4 edges
+8. `on` - 4 edges
+9. `graphify` - 4 edges
+10. `Skills aplicaveis (Node.js / TypeScript)` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Estruturas centrais (God Nodes pelo Graphify)` --references--> `waitIdle()`  [INFERRED]
@@ -71,7 +71,7 @@ Nodes (7): Prompts e Templates - fmunizmcorp/radar-sebrae-action, Template 1: Co
 
 ### Community 4 - "graphify.yml"
 Cohesion: 0.13
-Nodes (14): name, runs-on, jobs, graphify, name, permissions, contents, branches (+6 more)
+Nodes (14): name, runs-on, jobs, graphify, name, on, push, schedule (+6 more)
 
 ### Community 5 - "Aprendizados - fmunizmcorp/radar-sebrae-action"
 Cohesion: 0.40
